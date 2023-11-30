@@ -1,0 +1,197 @@
+ body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+ }
+ .navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.logo{
+  margin-left: 25px ;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logo a{
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
+.navlinks{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav-items a{
+text-decoration: none;
+color: #000;
+margin-right: 25px;
+
+}
+.main-box{
+  display: flex;
+  margin: 20px 20px 20px 20px ;
+
+}
+.beach-image{
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+.open-text{
+  flex: 2;
+}
+.open-headline{
+ flex: 1;
+ padding-bottom: 0px;
+}
+.open-paragraph{
+  
+}
+
+.timeline-content{
+  display: block;
+}
+.journey-callout{
+  text-align: center;
+}
+main{
+  width: 80%;
+  margin: 0 auto;
+}
+.eighteen{
+  display: flex;
+}
+article{
+  margin: 20px 0;
+  margin-bottom: auto;
+}
+.grad-cap{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;  
+}
+.h2-18{
+  padding-left: 25px;
+}
+.p-18{
+  padding-left: 25px;
+  padding-right: 50px;
+}
+.button{
+  text-decoration: none;
+  text-align: center;
+  background-color: darkgray;
+  border-radius: 10px;
+  margin-left: 25px;
+  color: aliceblue;
+  padding: 5px;
+}
+.nineteen{
+  display: flex;
+}
+.foodtruck{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;  
+}
+.h2-19{
+  padding-left: 25px;
+}
+.p-19{
+  padding-left: 25px;
+  padding-right: 50px;
+}
+.twent{
+  display: flex;
+}
+.pandemic{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;  
+}
+.h2-twent{
+  padding-left: 25px;
+}
+.p-twent{
+  padding-left: 25px;
+  padding-right: 50px;
+}
+.two-one{
+  display: flex;
+}
+.corp-event{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;  
+}
+.h2-two-one{
+  padding-left: 25px;
+}
+.p-two-one{
+  padding-left: 25px;
+  padding-right: 50px;
+}
+
+/*====Media Quieres====*/
+@media screen and (max-width: 600px) {
+  nav,.navlinks,section,article{
+    flex-direction: column;
+  }
+  .nav-items {
+    margin: 20px auto 20px auto;
+  }
+  
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .beach-image{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .grad-cap,.foodtruck,.pandemic,.corp-event{
+    max-width: 100%;
+  }
+  
+  
+}
+
+@media screen and (max-width: 900px) {
+  section,article{
+    flex-direction: column;
+  }
+  article{
+    margin-top: 25px;
+  }
+  .beach-image{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .grad-cap,.foodtruck,.pandemic,.corp-event{
+    max-width: 100%;
+  }
+  
+}
